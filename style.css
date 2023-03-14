@@ -8,7 +8,7 @@
     background: #2a3d81;
     display: inline-block;
     padding: 60px 90px;
-    margin: 150px 500px;
+    margin: 150px 460px;
 }
 
 .flower .circle{
@@ -19,7 +19,7 @@
     position: relative;
 }
 
-.flower .circle .petal1{
+.flower .circle .petal_one{
     height: 100px;
     width: 100px;
     background: #6c93cc;
@@ -30,7 +30,7 @@
     left: 20px;
     transform: rotate(90deg);
 }
-.flower .circle .petal2{
+.flower .circle .petal_two{
     height: 100px;
     width: 100px;
     background: #6c93cc;
@@ -40,7 +40,7 @@
     top: 20px;
     right: 20px;
 }
-.flower .circle .petal3{
+.flower .circle .petal_three{
     height: 100px;
     width: 100px;
     background: #6c93cc;
@@ -51,7 +51,7 @@
     right: 20px;
     transform: rotate(90deg);
 }
-.flower .circle .petal4{
+.flower .circle .petal_four{
     height: 100px;
     width: 100px;
     background: #6c93cc;
