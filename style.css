@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flower{
+    background: #2a3d81;
+    display: inline-block;
+    padding: 60px 90px;
+    margin: 150px 500px;
+}
+
+.flower .circle{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #6c93cc;
+    position: relative;
+}
+
+.flower .circle .petal1{
+    height: 100px;
+    width: 100px;
+    background: #6c93cc;
+    border-radius: 80px 0;
+    border: 20px solid #2a3d81;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: rotate(90deg);
+}
+.flower .circle .petal2{
+    height: 100px;
+    width: 100px;
+    background: #6c93cc;
+    border-radius: 80px 0;
+    border: 20px solid #2a3d81;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.flower .circle .petal3{
+    height: 100px;
+    width: 100px;
+    background: #6c93cc;
+    border-radius: 80px 0;
+    border: 20px solid #2a3d81;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transform: rotate(90deg);
+}
+.flower .circle .petal4{
+    height: 100px;
+    width: 100px;
+    background: #6c93cc;
+    border-radius: 80px 0;
+    border: 20px solid #2a3d81;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
